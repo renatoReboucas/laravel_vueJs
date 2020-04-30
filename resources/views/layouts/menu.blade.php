@@ -1,5 +1,5 @@
-<template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto justify-content-end">
 
@@ -16,10 +16,3 @@
 
   </div>
   </nav>
-</template>
-
-<script>
-    export default {
-
-    }
-</script>
