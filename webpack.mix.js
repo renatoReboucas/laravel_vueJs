@@ -12,11 +12,11 @@ const mix = require('laravel-mix');
  */
 mix.js(['resources/js/product.js'], 'public/js/app.product.js');
 
-mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+// mix.js('resources/js/app.js', 'public/js')
+//    .sass('resources/sass/app.scss', 'public/css');
 
 mix.styles([
-    // 'node_modules/fortawesome/fontawesome/styles.css',
+    'node_modules/fontawesome/styles.css',
     'node_modules/bootstrap/dist/css/bootstrap.css'
 ], 'public/resources/vendor/css/vendor.css').version();
 
@@ -27,6 +27,7 @@ mix.scripts([
     'node_modules/vue/dist/vue.js',
     'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
     'node_modules/vue-resource/dist/vue-resource.js',
+    'node_modules/fontawesome/index.js',
 ], 'public/resources/vendor/js/vendor.js').version();
 
 

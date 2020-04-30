@@ -20,8 +20,6 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example', require('./components/ExampleComponent.vue').default);
-Vue.component('nav', require('./components/Nav.vue').default);
-Vue.component('table-list', require('./components/Table.vue').default);
 
 const app = new Vue({
     el: '#app',

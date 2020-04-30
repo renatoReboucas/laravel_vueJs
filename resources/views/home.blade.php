@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
-<div id="app">
+<div id="products">
  @include('layouts.menu')
 
     <div class="container">
@@ -36,7 +36,8 @@
   </tbody>
 </table>
     </div>
+    @include('includes.modal')
 </div>
-@include('includes.modal')
-  <script  src="js/app.product.js"></script>
+<script  src="js/app.product.js"></script>
+
 @endsection

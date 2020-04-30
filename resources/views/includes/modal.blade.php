@@ -12,9 +12,21 @@
         <div class="row">
             <div class="col">
                 <input type="text" v-model="product.name" class="form-control" placeholder="Entre com o Nome">
-            <span>@{{product.name}}</span>
+            </div>
+            <div class="col">
+                <input type="text" v-model="product.description" class="form-control" placeholder="Entre com a Descricao">
             </div>
         </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <select class="form-control" >
+                    <option value="0">Selecione uma Categoria</option>
+                    <option v-for="category in categories" :key="category.id">@{{category.name}}</>
+                </select>
+            </div>
+        </div>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
