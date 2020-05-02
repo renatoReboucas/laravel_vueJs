@@ -107,7 +107,7 @@ new Vue({
         },
         destroy: function(id){
             const url = '/products/destroy'
-            console.log('deletar');
+            // console.log('deletar');
             if (confirm("Confirma operação de exclusao ?")) {
                 this.$http.post(url, { id: id }).then((res) => {
                     this.getProducts();
@@ -118,10 +118,12 @@ new Vue({
             } else {
                 event.preventDefault();
             }
-
-
-
-
+        },
+        show: function(id){
+            const url = '/products/show'
+            window.location.href = `/products/show/${id}`
+            // this.$http.post(url,{id:id})
+            // .then((res) => {})
         }
     }
 })

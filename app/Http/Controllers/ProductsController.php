@@ -50,7 +50,7 @@ class ProductsController extends Controller
     }
     public function saveFile($request){
         Storage::makeDirectory("/public/image");
-        $path = $request->file('thumb_url')->store("/public/image");
+        $path = $request->file('thumb_url')->store("/image");
         return empty($path) ? false : $path;
     }
     public function product(){
@@ -76,5 +76,17 @@ class ProductsController extends Controller
             return response()->json("Erro ao salvar produto", 500);
         }
         return "Produto deletado!";
+    }
+
+    public function show(Request $request, $id){
+        // dd($id);
+        $results = Product::select('products.id as id_product','products.name', 'products.description', 'products.price', 'products.thumb_url', 'cg.name as name_category', 'cg.id as id_category')
+        ->leftJoin('categories as cg', 'products.id', '=', 'cg.id')
+        ->where('products.id', $id)
+        ->first();
+
+        // dd($results);
+        return view('viewProduct', compact('results'));
+        // return route('show', $results);
     }
 }

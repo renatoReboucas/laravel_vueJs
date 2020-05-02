@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
-@include('layouts.menu')
+
 <div id="products">
 
     <div class="container">
@@ -17,7 +17,7 @@
                 <h1 style="margin-top:10px;">Produtos</h1>
             </div>
         </div>
-        <div class="card text-center content">
+        <div class="card text-center conteudo">
             <div class="card-header">
 
                 <div class="row">
@@ -25,6 +25,15 @@
                         <div class="d-flex justify-content-start">
                             <button class="btn btn-success" data-toggle="modal" data-target="#crud">Criar +</button>
                         </div>
+                    </div>
+                    <div class="col">
+                        <form action="" method="POST" enctype="multipart/form-data">
+                            {{ csrf_field() }}
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <i class="fas fa-file-csv"></i>
+                            </button>
+                        </form>
                     </div>
                     <div class="row">
                         <div class="col">
@@ -60,8 +69,8 @@
                                 <td>
                                     <a href="#" v-on:click="setProductsEdt(product)" data-toggle="modal" data-target="#crud">Editar</a>
                                     <a class="text-danger deletar" v-on:click="destroy(product.id_product)" href="#" >Deletar</a>
-                                    <form action="" method="post">
-                                        <a href="#">Visualizar</a>
+                                    {{-- <a href="#" v-on:click="show(product.id_product)">Visualizar</a> --}}
+                                    <a v-bind:href="'/products/show/' + product.id_product">Visualizar</a>
                                     </form>
                                 </td>
                             </tr>

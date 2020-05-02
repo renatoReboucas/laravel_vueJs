@@ -25163,8 +25163,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
     destroy: function destroy(id) {
       var _this5 = this;
 
-      var url = '/products/destroy';
-      console.log('deletar');
+      var url = '/products/destroy'; // console.log('deletar');
 
       if (confirm("Confirma operação de exclusao ?")) {
         this.$http.post(url, {
@@ -25179,6 +25178,11 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
       } else {
         event.preventDefault();
       }
+    },
+    show: function show(id) {
+      var url = '/products/show';
+      window.location.href = "/products/show/".concat(id); // this.$http.post(url,{id:id})
+      // .then((res) => {})
     }
   }
 });
