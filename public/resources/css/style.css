@@ -1,0 +1,9 @@
+.content{
+    /* margin-top: 10px; */
+    margin-bottom:30px;
+    box-shadow: 10px 10px 26px 20px rgba(0, 0, 0, 0.1);
+}
+.content:hover {
+  box-shadow: 0px 0px 0px #DADCDD;
+  border: 1px solid #DADCDD;
+}

@@ -6,6 +6,7 @@
     <title>Teste</title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="resources/vendor/css/vendor.css">
+    <link rel="stylesheet" href="resources/css/style.css">
   </head>
   <body>
   @auth

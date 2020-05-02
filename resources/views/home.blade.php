@@ -14,10 +14,10 @@
         </div>
         <div class="row">
             <div class="col">
-                <h1>Produtos</h1>
+                <h1 style="margin-top:10px;">Produtos</h1>
             </div>
         </div>
-        <div class="card text-center" style="margin-top: 40px;">
+        <div class="card text-center content">
             <div class="card-header">
 
                 <div class="row">
@@ -60,6 +60,9 @@
                                 <td>
                                     <a href="#" v-on:click="setProductsEdt(product)" data-toggle="modal" data-target="#crud">Editar</a>
                                     <a class="text-danger deletar" v-on:click="destroy(product.id_product)" href="#" >Deletar</a>
+                                    <form action="" method="post">
+                                        <a href="#">Visualizar</a>
+                                    </form>
                                 </td>
                             </tr>
                         </tbody>
