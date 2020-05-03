@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::view('lading', 'lading');
 
 Auth::routes();
 
@@ -29,6 +30,7 @@ Route::group(['prefix'=>'products','Authenticate' => ['autenticador']],function(
     Route::post('/edit', ["uses" => "ProductsController@edit"]);
     Route::post('/destroy', ["uses" => "ProductsController@destroy"]);
     Route::any('/show/{id}', ["as" => "show","uses" => "ProductsController@show"]);
+    Route::any('/import', ["as" => "import","uses" => "ImportController@import"]);
 
     // Route::view('/getProducts', 'home');
 });

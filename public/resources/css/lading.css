@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-flex{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu{
+    background-color: #FFF;
+    padding: 20px 0;
+    height: 85px;
+    width: 100%;
+    border-color: #FFF;
+}
+
+.menu .container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

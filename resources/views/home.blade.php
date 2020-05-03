@@ -27,8 +27,9 @@
                         </div>
                     </div>
                     <div class="col">
-                        <form action="" method="POST" enctype="multipart/form-data">
+                    <form action="{{ route('import') }}" method="POST" enctype="multipart/form-data">
                             {{ csrf_field() }}
+                            <input type="file" name="csv" id="csv">
                             <button type="submit" class="btn btn-primary">
                                 <i class="fas fa-cloud-upload-alt"></i>
                                 <i class="fas fa-file-csv"></i>

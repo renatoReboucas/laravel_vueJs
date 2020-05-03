@@ -12,6 +12,7 @@ const mix = require('laravel-mix');
  */
 mix.js(['resources/js/product.js'], 'public/js/app.product.js');
 mix.styles(['resources/css/style.css'], 'public/resources/css/style.css').version();
+mix.styles(['resources/css/lading.css'], 'public/resources/css/lading.css').version();
 
 // mix.js('resources/js/app.js', 'public/js')
 //    .sass('resources/sass/app.scss', 'public/css');
@@ -32,3 +33,4 @@ mix.scripts([
 ], 'public/resources/vendor/js/vendor.js').version();
 
 
+mix.copyDirectory('resources/assets/', 'public/resources/images');
