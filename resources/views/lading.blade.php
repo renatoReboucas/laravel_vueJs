@@ -128,8 +128,85 @@
                     <div class="info-2">
                         <div class="img-7" style="position: absolute;"></div>
                     </div>
+                    <div class="col">
+                        <p class="bedroom-txt-name">John Neil</p>
+                        <p class="bedroom-txt-name">Like Family Care NY</p>
+                    </div>
                 </div>
-                    <p class="">John Neil</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="bedroom-txt-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" style="margin-top: 15px">
+        <div class="bedroom-card">
+            <div class="row">
+                <div class="col">
+                    <div class="info-2">
+                        <div class="img-8" style="position: absolute;"></div>
+                    </div>
+                    <div class="col">
+                        <p class="bedroom-txt-name">Nick Maine</p>
+                        <p class="bedroom-txt-name">Picasso Details</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="bedroom-txt-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fifth">
+    <div class="container">
+        <div class="row">
+            <div class="col" style="margin: 35px 0px 0px 0px;">
+                <p class="fifth-title">Fast and simple, Unsecured funding.</p>
+            </div>
+            <div class="col" style="    margin: 200px 0px 0px 0px;">
+                <button class="btn-green" type="button">APPLY NOW</button>
+                <p>Applying doesn’t affect your credit score, and there’s no obligation to accept funding.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="contaier">
+        <div class="row" style="">
+            <div class="col" style="margin: 70px 0px 0px 0px">
+                <div class="img-9"></div>
+            </div>
+            <div class="col" style="margin-top: 70px;">
+                <p class="footer-txt">How it Works</p>
+                <p class="footer-txt">Get Funding</p>
+                <p class="footer-txt">Apply Now</p>
+            </div>
+            <div class="col" style="margin-top: 70px;">
+                <p class="footer-txt">Contact Us</p>
+                <p class="footer-txt">Careers</p>
+                <p class="footer-txt">FAQ</p>
+            </div>
+            <div class="col" style="margin: 70px 50px 0px 0px;">
+                <div class="footet-icons">
+                    <div class="slack"></div>
+                    <div class="twitter"></div>
+                    <div class="linkedin"></div>
+                    <div class="facebook"></div>
+                    <div class="instagram"></div>
+                </div>
             </div>
         </div>
     </div>

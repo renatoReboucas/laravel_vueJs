@@ -174,6 +174,17 @@ ul{
     width: 55px;
     height: 55px;
 }
+.img-8{
+    background: url("/resources/images/p-2.png") no-repeat;
+    width: 55px;
+    height: 55px;
+}
+.img-9{
+    background: url("/resources/images/logo-mobile.svg") no-repeat;
+    width: 76px;
+    height: 68px;
+    margin-left: 200px;
+}
 .third-txt-img{
     color: #676767;
     font: Bold 28px Montserrat;
@@ -204,7 +215,7 @@ ul{
     margin: 90px 0px 0px 0px;
 }
 .bedroom{
-    height: 4502px;
+    height: 977px;
     background-color: #FFF;
 }
 .bedroom-txt-title{
@@ -225,9 +236,67 @@ ul{
     flex-grow: 1;
     margin: 20px 0px 0px 35px;
 }
-
-
-
+.bedroom-txt-name{
+    margin: 0px 0px 0px 79px;
+}
+.bedroom-txt-info{
+    text-align: left;
+    font: normal 22px Montserrat;
+    color: #525252;
+    margin: 50px 33px 27px 33px;
+}
+.fifth{
+    height: 358px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+}
+/* .fifth-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+.fifth-title{
+    text-align: left;
+    font: Bold 65px Montserrat;
+    color: #7B7B7B;
+}
+.footer{
+    height: 667px;
+    background: #575757 0% 0% no-repeat padding-box;
+}
+.footer-txt{
+    text-align: left;
+    font: Medium 20px Montserrat;
+    color: #FFFFFF;
+}
+.slack{
+    background: url("/resources/images/slack.svg") no-repeat;
+    width: 49px;
+    height: 49px;
+}
+.twitter{
+    background: url("/resources/images/twitter.svg") no-repeat;
+    width: 49px;
+    height: 49px;
+}
+.linkedin{
+    background: url("/resources/images/linkedin.svg") no-repeat;
+    width: 49px;
+    height: 49px;
+}
+.facebook{
+    background: url("/resources/images/facebook.svg") no-repeat;
+    width: 49px;
+    height: 49px;
+}
+.instagram{
+    background: url("/resources/images/instagram.svg") no-repeat;
+    width: 49px;
+    height: 49px;
+}
+.footet-icons{
+    display: flex;
+    justify-content: space-around;
+}
 @media (max-width: 420px){
     .logo{
         background: url("/resources/images/logo-small-2.svg") no-repeat;
